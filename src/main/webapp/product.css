@@ -1,0 +1,162 @@
+.sub-heading{
+	font-size: 100px;
+	
+}
+/* Global Styles */
+:root {
+  --primary-color: #ff9800;
+  --secondary-color: #f57c00;
+  --background-color: #333;
+  --text-color: #fff;
+  --font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: var(--font-family);
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.small.container {
+  margin-top: 120%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -20px;
+}
+
+.row-2 {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.select {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 14px;
+}
+
+/* Product Card Styles */
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -20px;
+  padding: 60px;
+}
+
+.product-card {
+  width: calc(100% / 3 - 40px);
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+  height: auto;
+  overflow: hidden;
+}
+
+.product-image img {
+  width: 100%;
+  height: 160%;
+  object-fit: cover;
+}
+
+.product-info {
+  padding: 20px;
+  text-align: center;
+}
+
+.product-name {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.product-price {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product-rating {
+  margin-bottom: 10px;
+}
+
+.product-rating i {
+  color: var(--primary-color);
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: var(--secondary-color);
+}
+.row-2{
+	justify-content: space-between;
+	padding: 5px;
+	
+	
+}
+select{
+	border: 1px solid #ff523b;
+	padding: 5px;
+}
+select:focus{
+	outline: none;
+}
+.page-btn{
+	margin: 0 auto 80px;
+	padding: 5px;
+	
+}
+
+.page-btn span{
+	display: inline-block;
+	border: 1px solid #ff523b;
+	margin-left: 10px;
+	padding: 10px 10px 10px 10px;
+	height: 40px;
+	text-align: center;
+	line-height: 10px;
+	cursor: pointer;
+}
+
+.page-btn span:hover{
+	background: #ff523b;
+	color: #ffff;
+}
+.button-value {
+	border:2px solid #6759ff;
+	padding: 1em 2.2em;
+	border-radius: 3em;
+	background-color: transparent;
+	color: #6759ff;
+	cursor: pointer;
+}
+.active{
+	background-color: #6759ff;
+	color: #ffffff;
+	
+}
